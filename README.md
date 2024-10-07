@@ -1,0 +1,2 @@
+# Versioned Historial Site Emulator Template
+This is a template for a versioned historical site emulator. It is a simple web application that allows users to build an emulator for a website as it was at different points in time.
