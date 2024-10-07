@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{oldsite.name}}</title>
+</head>
+<body>
+    <h1>Era: {{oldsite.era}}</h1>
+    <p>Timestamp: <span id="timestamp"></span></p>
+    <script>
+        var timestamp = new Date({{oldsite.timestamp}});
+        document.getElementById('timestamp').innerText = timestamp.toISOString(); //  Example: 2020-01-01T00:00:00.000Z
+    </script>
+</body>
+</html>
